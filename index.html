@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Envelope + Letter (Open/Close on Click)</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <p>
+                            Oyeee...Rakshasi!!!!<33</br>
+                            Hello enti e letter kothaga anukuntunava firstly happy friendship day to my Dayam pilla.
+                            Em chhestunav vey oka msg ledu phone ledu.Kanisam e letter chadivatappudu ina face meda smile 
+                            maintain chai rakshai.Ento boreing ga vundi call chayachu ga chala rojulu iendi matladi antluga vundi
+                            రాక్షసి నీవు అయినా, నా ప్రాణ స్నేహితురాలివి,</BR>
+                           నీ నవ్వుల్లోనే నా హృదయం ఆనందమయం,</BR>
+                           ఈ స్నేహ బంధం ఎప్పటికీ అజరామరమై నిలువాలని కోరుకుంటున్నా.</BR>
+                            Happy Friendship Day to my wonderful, irreplaceable friend!!!!................. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
